@@ -1,0 +1,32 @@
+/* bootstrap layout */
+html,body{
+    height:100%;
+}
+img{
+    max-width: 100%;
+}
+.image{
+    background:#222 url("../image/image-1.jpg") center center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    height:100%;
+}
+.section-content{
+    padding:4rem 0;
+}
+#about{
+    background-image:url("../image/adv.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.about-text{
+    background-color:rgba(0,0,0,0.8);
+    color:white;
+    padding:1.8rem ;
+}
+#footer-main{
+    background:#222;
+    color:white;
+    padding:2.5rem;
+    font-size:0.8rem;
+}
